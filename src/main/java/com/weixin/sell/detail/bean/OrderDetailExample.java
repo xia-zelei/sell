@@ -1,4 +1,4 @@
-package com.weixin.sell.detail.pojo;
+package com.weixin.sell.detail.bean;
 
 import java.math.BigDecimal;
 import java.util.ArrayList;

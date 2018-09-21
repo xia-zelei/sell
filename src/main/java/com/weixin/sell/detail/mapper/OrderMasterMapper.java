@@ -1,10 +1,12 @@
 package com.weixin.sell.detail.mapper;
 
-import com.weixin.sell.detail.pojo.OrderMaster;
-import com.weixin.sell.detail.pojo.OrderMasterExample;
+import com.weixin.sell.detail.bean.OrderMaster;
+import com.weixin.sell.detail.bean.OrderMasterExample;
 import java.util.List;
-import org.apache.ibatis.annotations.Param;
 
+import org.apache.ibatis.annotations.Mapper;
+import org.apache.ibatis.annotations.Param;
+@Mapper
 public interface OrderMasterMapper {
     int countByExample(OrderMasterExample example);
 

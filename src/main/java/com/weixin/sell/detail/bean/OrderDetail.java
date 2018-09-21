@@ -1,8 +1,11 @@
-package com.weixin.sell.detail.pojo;
+package com.weixin.sell.detail.bean;
+
+import lombok.Data;
 
 import java.math.BigDecimal;
 import java.util.Date;
 
+@Data
 public class OrderDetail {
     private String detailId;
 
