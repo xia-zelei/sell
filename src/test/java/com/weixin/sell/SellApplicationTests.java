@@ -15,7 +15,7 @@ import java.util.List;
 public class SellApplicationTests {
 
 	@Autowired
-    OrderDetatlService orderDetatlService;
+    OrderDetatlService orderDetatlService ;
 
 	@Test
 	public void contextLoads() {

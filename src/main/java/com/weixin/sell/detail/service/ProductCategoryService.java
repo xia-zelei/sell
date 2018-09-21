@@ -1,5 +1,7 @@
 package com.weixin.sell.detail.service;
 
-public interface ProductCategoryService {
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface ProductCategoryService extends JpaRepository{
 
 }
