@@ -2,12 +2,13 @@ package com.weixin.sell.detail.service.impl;
 
 import com.weixin.sell.detail.bean.OrderDetail;
 import com.weixin.sell.detail.service.OrderDetatlService;
+import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
 
 @Service("OrderDetatlService")
-public class OrderDetatlServiceImpl implements OrderDetatlService {
+public class OrderDetatlServiceImpl implements OrderDetatlService  {
 
     @Override
     public List<OrderDetail> findDetailList() throws Exception {
@@ -16,6 +17,7 @@ public class OrderDetatlServiceImpl implements OrderDetatlService {
 
     @Override
     public OrderDetail findOne(String id) throws Exception {
+
         return null;
     }
 }
